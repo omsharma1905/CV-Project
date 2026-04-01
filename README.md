@@ -1,6 +1,5 @@
 😷 Face Mask Detector using OpenCV
 
-
 📌 Project Overview
 
 This project is a real-time face mask detection system built using Python and OpenCV. It uses a webcam to detect faces and classify whether a person is wearing a mask or not.

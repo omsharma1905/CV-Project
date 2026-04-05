@@ -9,7 +9,6 @@ This project is a real-time face mask detection system built using Python and Op
 * Real-time face detection using Haar Cascade
 * Mask / No Mask classification
 * Lightweight and fast
-* 
 * Easy to run
 
 ##Technologies Used

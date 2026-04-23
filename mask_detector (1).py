@@ -1,10 +1,8 @@
 import cv2
 import numpy as np
 
-# Load face detector
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
-# Start webcam
 cap = cv2.VideoCapture(0)
 
 while True:
@@ -19,10 +17,8 @@ while True:
     for (x, y, w, h) in faces:
         face = frame[y:y+h, x:x+w]
 
-        # Split face into upper and lower half
         lower_half = face[int(h/2):h, :]
 
-        # Check brightness (simple trick)
         avg_brightness = np.mean(lower_half)
 
         if avg_brightness < 80:

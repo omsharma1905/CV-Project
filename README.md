@@ -1,46 +1,137 @@
-😷 Face Mask Detector using OpenCV
+# 😷 Face Mask Detector using OpenCV
 
-📌 Project Overview
+A real-time **Face Mask Detection System** built using **Python**, **OpenCV**, and **NumPy**.  
+This project uses a webcam to detect human faces and classify whether a person is wearing a **mask** or **not wearing a mask**.
 
-This project is a real-time face mask detection system built using Python and OpenCV. It uses a webcam to detect faces and classify whether a person is wearing a mask or not.
+---
 
-##Features
+# 📌 Project Overview
 
-* Real-time face detection using Haar Cascade
-* Mask / No Mask classification
-* Lightweight and fast
-* Easy to run
+The system captures live video from the webcam, detects faces using OpenCV's **Haar Cascade Classifier**, and applies a simple brightness-based heuristic to determine mask presence.
 
-##Technologies Used
+This project is lightweight, beginner-friendly, and easy to run on any system with Python installed.
 
-* Python
-* OpenCV
-* NumPy
+---
 
-## How to Run
+# 🚀 Features
 
-1. Install dependencies:
-   pip install opencv-python numpy
+✅ Real-time webcam face detection  
+✅ Detects Mask / No Mask  
+✅ Lightweight and fast execution  
+✅ Simple OpenCV implementation  
+✅ Beginner-friendly project structure  
 
-2. Run the project:
-   python mask_detector.py
+---
 
-## Controls
+# 🛠️ Technologies Used
 
-* Press `ESC` or `q` to close webcam
+| Technology | Purpose |
+|------------|---------|
+| Python | Programming Language |
+| OpenCV | Computer Vision & Face Detection |
+| NumPy | Array and Image Processing |
 
-## Limitations
+---
 
-* Not highly accurate
-* Based on brightness heuristic
-* Sensitive to lighting conditions
+# 📂 Project Structure
 
-## Future Scope
+```bash
+Face-Mask-Detector/
+│
+├── mask_detector.py
+├── haarcascade_frontalface_default.xml
+├── README.md
+```
 
-* Use deep learning (CNN)
-* Improve detection accuracy
-* Add alert system
+---
 
-## Author
+# ⚙️ Installation
 
-OM SHARMA
+## 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/your-username/face-mask-detector.git
+```
+
+## 2️⃣ Navigate to Project Folder
+
+```bash
+cd face-mask-detector
+```
+
+## 3️⃣ Install Required Libraries
+
+```bash
+pip install opencv-python numpy
+```
+
+---
+
+# ▶️ How to Run
+
+Run the following command:
+
+```bash
+python mask_detector.py
+```
+
+The webcam will open automatically.
+
+---
+
+# 🎮 Controls
+
+| Key | Action |
+|-----|--------|
+| `q` | Quit Application |
+| `ESC` | Close Webcam |
+
+---
+
+# 🧠 Working Principle
+
+1. Webcam captures live video feed  
+2. Haar Cascade detects faces in each frame  
+3. Region of Interest (ROI) is extracted  
+4. Brightness-based heuristic checks mask presence  
+5. Label is displayed:
+   - ✅ Mask
+   - ❌ No Mask
+
+---
+
+# ⚠️ Limitations
+
+- Detection is not highly accurate
+- Uses simple brightness heuristic instead of AI
+- Sensitive to lighting conditions
+- Performance may vary with camera quality
+
+---
+
+# 🔮 Future Improvements
+
+- Implement Deep Learning / CNN model
+- Improve accuracy using TensorFlow or PyTorch
+- Add sound alert system
+- Add dataset training support
+- Deploy as web application
+
+---
+
+# 📸 Output
+
+- Green Box → Mask Detected  
+- Red Box → No Mask Detected  
+
+---
+
+# 👨‍💻 Author
+
+## OM SHARMA
+
+---
+
+# 📜 License
+
+This project is created for educational and learning purposes.

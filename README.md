@@ -56,7 +56,7 @@ git clone https://github.com/omsharma1905/CV-Project.git
 ## 2️⃣ Navigate to Project Folder
 
 ```bash
-cd face-mask-detector
+cd CV-Project
 ```
 
 ## 3️⃣ Install Required Libraries

@@ -50,7 +50,7 @@ Face-Mask-Detector/
 ## 1️⃣ Clone the Repository
 
 ```bash
-git clone [https://github.com/your-username/face-mask-detector.git](https://github.com/omsharma1905/CV-Project.git)
+git clone https://github.com/omsharma1905/CV-Project.git
 ```
 
 ## 2️⃣ Navigate to Project Folder
